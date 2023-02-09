@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -A --group-directories-first --ignore="*~" --quoting-style=shell-always | tr / , | awk BEGIN {RS=, ORS=,} {print /bin/bash} END {print }
