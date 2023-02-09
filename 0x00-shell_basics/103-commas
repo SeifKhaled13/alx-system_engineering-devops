@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | awk { printf , } | sed s/,$/n/
+ls -ctuvmap
