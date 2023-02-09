@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" $(ls -1 | sort -V | sed -e s/^([^.])/1 / -e s/^./.. / -e s/$/// -e s/[^/][^/]*$//) | tr n ,
+ls -1 | awk { printf , } | sed s/,$/n/
