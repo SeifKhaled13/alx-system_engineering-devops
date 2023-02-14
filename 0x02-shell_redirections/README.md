@@ -1,4 +1,4 @@
-Script 1 - "Hello, World"
+<h1>Script 1</h1> - "Hello, World"
 This script simply outputs the string "Hello, World" to the console. It is a basic introduction to shell scripting and serves as a starting point for learning more complex bash commands.
 
 Script 2 - "(Ôo)'"
